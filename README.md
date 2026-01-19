@@ -22,11 +22,17 @@ Eliminar
 Remueve un contacto de la base de datos.DELETE /api/contactos.php?id=5
 Ejemplos de uso:
 Petición POST (Crear):
-Se debe enviar un cuerpo en formato JSON con la estructura del contacto:JSON{
-  "nombre": "Juan Perez",
-  "telefono": "123456789",
-  "correo": "juan@example.com"
+Se debe enviar un cuerpo en formato JSON con la estructura del contacto:
+
+JSON
+{
+
+"nombre": "Juan Perez",
+"telefono": "123456789",
+"correo": "juan@example.com"
+
 }
+
 Petición PUT (Actualizar):
 Requiere enviar todos los campos del objeto para sobrescribir el registro identificado por el ID en la URL.
 # Requisitos previos
