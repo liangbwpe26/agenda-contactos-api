@@ -4,8 +4,7 @@ Breve descripción del proyecto:
 
 # Características
 El sistema permite gestionar la información esencial de cada usuario con las siguientes funciones:Agregar contactos: Guarda nombre, teléfono, correo y dirección.Buscar: Localiza contactos rápidamente por nombre o apellido.Editar: Actualiza la información de contactos existentes.
-# Eliminar: 
-Borra registros de forma permanente.
+
 # Métodos API REST
 Utilizamos los verbos HTTP estándar para gestionar el ciclo de vida de los contactos. A continuación, se detalla la estructura de las peticiones:
 MétodoAcciónDescripción
