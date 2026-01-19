@@ -19,7 +19,10 @@ Reemplaza o edita un contacto existente (integral).
 PUT /api/contactos.php?id=5
 # DELETE
 Eliminar
-Remueve un contacto de la base de datos.DELETE /api/contactos.php?id=5
+Remueve un contacto de la base de datos.
+
+DELETE /api/contactos.php?id=5
+
 Ejemplos de uso:
 Petición POST (Crear):
 Se debe enviar un cuerpo en formato JSON con la estructura del contacto:
