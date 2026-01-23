@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Modificar Contacto</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="js/contactoModificar.js" defer></script>
+</head>
+<body>
+    <h2>Modificar Contacto</h2>
+    <form method="POST" action="../modify_contact.php" id="modify_form">
+        <label for="id_modify">ID:</label>
+        <input type="text" name="id" id="id_modify">
+        <br>
+        <label for="name_modify">Nombre:</label>
+        <input type="text" name="name" id="name_modify">
+        <br>
+        <label for="email_modify">Correo:</label>
+        <input type="text" name="email" id="email_modify">
+        <br>
+        <label for="phone_modify">Teléfono:</label>
+        <input type="text" name="phone" id="phone_modify">
+        <br>
+        <button type="button" id="modify_button">Modificar con API</button>
+        <button type="submit">Guardar</button>
+    </form>
+    <a href="../Main.php">Volver al menú principal</a>
+</body>
+</html>
